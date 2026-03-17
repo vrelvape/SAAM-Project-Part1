@@ -119,8 +119,8 @@ def main():
         print(f"  {name}: {path}")
 
     filled_template_path = fill_part1_excel_template(
-        base_dir=paths["BASE_DIR"],
-        outputs_dir=paths["OUTPUTS"],
+        templates_dir=paths["TEMPLATES_DIR"],
+        excel_dir=paths["EXCEL_DIR"],
         figures_dir=paths["FIGURES_DIR"],
         mv_returns_oos=mv_returns_oos,
         vw_returns_oos=vw_returns_oos,
